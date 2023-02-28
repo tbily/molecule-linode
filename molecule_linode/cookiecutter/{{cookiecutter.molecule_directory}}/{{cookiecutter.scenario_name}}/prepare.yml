@@ -3,10 +3,3 @@
   hosts: all
   gather_facts: false
   become: true
-  tasks:
-    - shell: curl -sSL https://repos-droplet.digitalocean.com/install.sh | bash
-    - shell: curl -sSL https://repos.insights.digitalocean.com/install.sh | bash
-    - name: Install python for Ansible
-      package:
-         name: python3, python3-pip
-      become: true
