@@ -19,4 +19,4 @@ widely recommended `'--user' flag`_ when invoking ``pip``.
 
 .. code-block:: bash
 
-    $ pip install 'git+https://github.com/tbily/molecule-linode.git@master'
+    $ pip3 install 'git+https://github.com/tbily/molecule-linode.git@master'
